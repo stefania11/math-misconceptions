@@ -1,5 +1,9 @@
 # **MaE: Math Misconceptions and Errors Dataset**
 
+<!-- Center and enlarge the main links -->
+<p align="center" style="font-size: 1.5em;">
+    <a href="https://huggingface.co/datasets/nanote/algebra_misconceptions">HuggingFace</a> 
+
 This dataset supports the research described in the paper [A Benchmark for Math Misconceptions: Bridging Gaps in Middle School Algebra with AI-Supported Instruction](https://arxiv.org/abs/your-link) by Nancy Otero, Stefania Druga, and Andrew Lan.
 
 ### **Overview**
