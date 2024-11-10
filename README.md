@@ -117,5 +117,3 @@ The project includes a test script (`test_setup.py`) to verify your setup:
    - Linear equations and inequalities
    - Proportional relationships
    - Function modeling
-
-[... rest of the original content continues unchanged ...]
