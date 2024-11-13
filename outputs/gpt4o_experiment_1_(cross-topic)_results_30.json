@@ -1,0 +1,242 @@
+[
+  {
+    "topic": "Number Operations",
+    "question": "Solve x+1/3=7",
+    "incorrect_answer": "x+1/3=7\nx=7-1/3=6/3=2",
+    "actual_misconception": "when students subtract mixed numbers incorrectly, avoiding regrouping and just subtracting the smaller from the larger number",
+    "predicted_misconception": "The incorrect answer provided contains a few misconceptions in the process of solving the equation. Let's address these step-by-step:\n\n1. **Equation Setup**: The original equation is \\( x + \\frac{1}{3} = 7 \\).\n\n2. **Isolating \\( x \\)**: To solve for \\( x \\), we need to isolate it on one side of the equation. This involves subtracting \\(\\frac{1}{3}\\) from both sides of the equation:\n\n   \\[\n   x = 7 - \\frac{1}{3}\n   \\]\n\n3. **Subtracting Fractions**: The error occurs in the subtraction step. The incorrect solution attempts to subtract \\(\\frac{1}{3}\\) directly from 7 without converting 7 into a fraction with a common denominator.\n\n   To correctly subtract these, convert 7 into a fraction with a denominator of 3:\n\n   \\[\n   7 = \\frac{21}{3}\n   \\]\n\n   Now, subtract \\(\\frac{1}{3}\\) from \\(\\frac{21}{3}\\):\n\n   \\[\n   x = \\frac{21}{3} - \\frac{1}{3} = \\frac{20}{3}\n   \\]\n\n4. **Final Answer**: The correct solution to the equation \\( x + \\frac{1}{3} = 7 \\) is:\n\n   \\[\n   x = \\frac{20}{3}\n   \\]\n\nThe misconception was in the arithmetic operation involving fractions. It's important to ensure that fractions are handled correctly by finding a common denominator before performing addition or subtraction.",
+    "has_images": false
+  },
+  {
+    "topic": "Patterns, relationships, and functions",
+    "question": "From the graph presented, which group is growing faster at the age of 14?\n[The graph represents the age of boys and girls on the x-axis and their average weight in kilograms, on the y-axis. The graph goes from 0 to 16 on the x-axis and from 0 to 70 on the y-axis. There are two lines: one dashed line representing the Boy's average weight in kilograms, in function of their age in years, and one solid line representing the Girl's average weight in kilograms, in function of their age in years. Both lines start resembling a straight line, but start changing into a curve-shape at 11 years]",
+    "incorrect_answer": "Em, I wrote Girls. Because they weigh more than boys and this means that they could be taller than \u2026they could be eating more. Yeah, I know [that the gradient is steeper] but it is not an area it is just for one point",
+    "actual_misconception": "when students struggle to grasp the concept that a linear function represents a consistent rate of change",
+    "predicted_misconception": "To determine which group is growing faster at the age of 14, we need to look at the steepness of the lines on the graph at that age. The steeper the line, the faster the growth rate.\n\nAt age 14, the dashed line (representing boys) is steeper than the solid line (representing girls). This indicates that boys are growing faster than girls at this age. The gradient of the line is what matters here, not the absolute weight.",
+    "has_images": true
+  },
+  {
+    "topic": "Patterns, relationships, and functions",
+    "question": "Make a table of values that would produce the function seen on the graph",
+    "incorrect_answer": "m=(3-0)/(0-25)=3/-2.5\ny=(-3/2.5)x-3\nx    |   y\n0   | -3\n1   | -2\n2   | -1\n2.5 |   0",
+    "actual_misconception": "when students misinterpret slope signs in equations versus their upward or downward trends in graphs.",
+    "predicted_misconception": "The graph shows a line with a positive slope, not a negative one. Let's correct the function and the table of values.\n\nFirst, identify two points on the line. From the graph, it looks like the line passes through (0, -3) and (2.5, 0).\n\nCalculate the slope \\( m \\):\n\n\\[\nm = \\frac{0 - (-3)}{2.5 - 0} = \\frac{3}{2.5} = \\frac{6}{5}\n\\]\n\nThe equation of the line in slope-intercept form \\( y = mx + b \\) is:\n\n\\[\ny = \\frac{6}{5}x - 3\n\\]\n\nNow, create a table of values:\n\n\\[\n\\begin{array}{c|c}\nx & y \\\\\n\\hline\n0 & -3 \\\\\n1 & -2.2 \\\\\n2 & -1.2 \\\\\n2.5 & 0 \\\\\n\\end{array}\n\\]\n\nThis table reflects the correct values for the function \\( y = \\frac{6}{5}x - 3 \\).",
+    "has_images": true
+  },
+  {
+    "topic": "Number sense",
+    "question": "Fill in the blank with >, < or =\n0.04 __ 0.5",
+    "incorrect_answer": "0.04 > 0.5",
+    "actual_misconception": "when Students think longer numerals mean larger numbers, misunderstanding place value",
+    "predicted_misconception": "The incorrect answer suggests a misunderstanding of decimal place value. To compare 0.04 and 0.5, it's helpful to consider them as fractions or to align their decimal places.\n\n0.04 is equivalent to 4/100 or 0.04 in decimal form.\n0.5 is equivalent to 5/10 or 50/100, which is 0.50 in decimal form.\n\nWhen comparing 0.04 and 0.50, it's clear that 0.04 is less than 0.50.\n\nTherefore, the correct comparison is:\n0.04 < 0.5",
+    "has_images": false
+  },
+  {
+    "topic": "Number Operations",
+    "question": "3/4\u00f71/5=?",
+    "incorrect_answer": "3/4\u00f71/5=4/3*1/5=4/15",
+    "actual_misconception": "when students incorrectly invert the dividend instead of the divisor when dividing fractions, misunderstanding the 'invert and multiply' rule.",
+    "predicted_misconception": "The incorrect answer arises from a misunderstanding of how to divide fractions. The correct method for dividing fractions is to multiply by the reciprocal of the divisor.\n\nLet's go through the correct steps:\n\n1. **Identify the problem**: \\( \\frac{3}{4} \\div \\frac{1}{5} \\).\n\n2. **Find the reciprocal of the divisor**: The divisor here is \\( \\frac{1}{5} \\), and its reciprocal is \\( \\frac{5}{1} \\).\n\n3. **Multiply the dividend by the reciprocal of the divisor**: \n   \\[\n   \\frac{3}{4} \\times \\frac{5}{1}\n   \\]\n\n4. **Perform the multiplication**: Multiply the numerators and the denominators:\n   \\[\n   \\frac{3 \\times 5}{4 \\times 1} = \\frac{15}{4}\n   \\]\n\nSo, the correct answer is \\( \\frac{15}{4} \\).\n\nThe error in the incorrect answer was inverting the wrong fraction and then multiplying incorrectly. The correct process involves inverting the divisor, not the dividend, and then multiplying.",
+    "has_images": false
+  },
+  {
+    "topic": "Ratios and proportional reasoning",
+    "question": "Jim correctly solved 88% of 50 test items. How many items did he have correct?",
+    "incorrect_answer": "(50/88)=(x/100)\n57 items",
+    "actual_misconception": "when students incorrectly apply a single proportion formula to all percentage problems: (smaller value)/(larger value) = (x/100)",
+    "predicted_misconception": "The incorrect answer provided seems to stem from a misunderstanding of how percentages work. The equation \\( \\frac{50}{88} = \\frac{x}{100} \\) is incorrect for this problem because it incorrectly sets up a proportion that doesn't relate to the problem's context.\n\nTo find out how many items Jim solved correctly, we need to calculate 88% of 50. The correct calculation is:\n\n\\[ \nx = \\frac{88}{100} \\times 50 \n\\]\n\n\\[ \nx = 0.88 \\times 50 \n\\]\n\n\\[ \nx = 44 \n\\]\n\nJim correctly solved 44 items.",
+    "has_images": false
+  },
+  {
+    "topic": "Patterns, relationships, and functions",
+    "question": "Crystal placed a bucket under a faucet and collected 6 ounces of water in 20 minutes. Joanne placed a bucket under a second faucet and collected 3 ounces of water in 10 minutes. Were the faucets dripping equally fast or was one dropping faster than the other?",
+    "incorrect_answer": "Crystal's faucet is dripping more slowly than Joanne's because it took its time. \nNo, Crystal's faucet is dripping faster because both amounts, time and water, for Crystal's faucet are greater than the corresponding amounts for Joanne's faucet.",
+    "actual_misconception": "when students struggle to grasp the concept that a linear function represents a consistent rate of change",
+    "predicted_misconception": "The incorrect answer contains a common misconception about comparing rates. To determine which faucet is dripping faster, we need to compare the rates of water collection in terms of ounces per minute for each faucet.\n\n1. **Crystal's Faucet:**\n   - Water collected: 6 ounces\n   - Time: 20 minutes\n   - Rate: \\( \\frac{6 \\text{ ounces}}{20 \\text{ minutes}} = 0.3 \\text{ ounces per minute} \\)\n\n2. **Joanne's Faucet:**\n   - Water collected: 3 ounces\n   - Time: 10 minutes\n   - Rate: \\( \\frac{3 \\text{ ounces}}{10 \\text{ minutes}} = 0.3 \\text{ ounces per minute} \\)\n\nBoth faucets have the same rate of 0.3 ounces per minute. Therefore, the faucets are dripping equally fast.\n\nThe misconception in the incorrect answer is the assumption that larger absolute values of time and water collected imply a faster rate. However, rate comparisons require calculating and comparing the ratios of water collected to time for each faucet.",
+    "has_images": false
+  },
+  {
+    "topic": "Equations and inequalities",
+    "question": "There were three kinds of candy bars being sold at the concession stand during the Friday dance. There were 22 more Snickers bars sold than Kit Kat bars and there were 32 more Reese\u2019s Peanut Butter Cups sold than Kit Kat bars. There were 306 candy bars sold in all. How many  of each kind of candy bar was sold?",
+    "incorrect_answer": "I'll use K for the Kit Kat bars, S for Snickers and P for Peanut Butter Cups.\nK=S+22\nP=K+32\nP+k+S=306\nIf I divide 306 by 3, I get 102, there would be 102 bars of each if all were equal. Since there are more Kit Kats, I'll guess K=80.\nP=80+32=112\n80=S+22\n80=58+22, S=58\nP=112, K=80 and S=58\nChecking: 112+80+58=250\nThen, there are more Kit Kats...  My initial guess is wrong...",
+    "actual_misconception": "when students struggle with forming and understanding algebraic expressions and equations.",
+    "predicted_misconception": "The incorrect answer contains several misconceptions and errors in setting up and solving the equations. Let's address these and find the correct solution.\n\n1. **Misinterpretation of Variables:**\n   The initial setup of the equations is incorrect. The relationships between the candy bars should be:\n   - \\( S = K + 22 \\) (There are 22 more Snickers bars than Kit Kat bars)\n   - \\( P = K + 32 \\) (There are 32 more Reese\u2019s Peanut Butter Cups than Kit Kat bars)\n\n2. **Equation Setup:**\n   The total number of candy bars sold is 306, so the equation should be:\n   \\[\n   K + S + P = 306\n   \\]\n\n3. **Substitution:**\n   Substitute the expressions for \\( S \\) and \\( P \\) in terms of \\( K \\) into the total equation:\n   \\[\n   K + (K + 22) + (K + 32) = 306\n   \\]\n\n4. **Simplification:**\n   Simplify the equation:\n   \\[\n   3K + 54 = 306\n   \\]\n\n5. **Solve for \\( K \\):**\n   Subtract 54 from both sides:\n   \\[\n   3K = 252\n   \\]\n   Divide by 3:\n   \\[\n   K = 84\n   \\]\n\n6. **Find \\( S \\) and \\( P \\):**\n   Now that we have \\( K = 84 \\), calculate \\( S \\) and \\( P \\):\n   \\[\n   S = K + 22 = 84 + 22 = 106\n   \\]\n   \\[\n   P = K + 32 = 84 + 32 = 116\n   \\]\n\n7. **Verification:**\n   Check the total:\n   \\[\n   K + S + P = 84 + 106 + 116 = 306\n   \\]\n\nThus, the correct number of each kind of candy bar sold is:\n- Kit Kat bars: 84\n- Snickers bars: 106\n- Reese\u2019s Peanut Butter Cups: 116",
+    "has_images": false
+  },
+  {
+    "topic": "Number Operations",
+    "question": "2/3\u00f73/8=?",
+    "incorrect_answer": "2/3\u00f73/8=3/2*3/8=9/16",
+    "actual_misconception": "when students incorrectly invert the dividend instead of the divisor when dividing fractions, misunderstanding the 'invert and multiply' rule.",
+    "predicted_misconception": "The incorrect answer arises from a misunderstanding of how to divide fractions. The correct method for dividing fractions is to multiply by the reciprocal of the divisor.\n\nLet's go through the correct steps:\n\n1. **Identify the fractions**: We have \\( \\frac{2}{3} \\) and \\( \\frac{3}{8} \\).\n\n2. **Division of fractions**: To divide \\( \\frac{2}{3} \\) by \\( \\frac{3}{8} \\), you multiply \\( \\frac{2}{3} \\) by the reciprocal of \\( \\frac{3}{8} \\). The reciprocal of \\( \\frac{3}{8} \\) is \\( \\frac{8}{3} \\).\n\n3. **Perform the multiplication**:\n   \\[\n   \\frac{2}{3} \\times \\frac{8}{3} = \\frac{2 \\times 8}{3 \\times 3} = \\frac{16}{9}\n   \\]\n\nTherefore, the correct answer is \\( \\frac{16}{9} \\), not \\( \\frac{9}{16} \\). The mistake in the original incorrect answer was inverting the wrong fraction and incorrectly multiplying.",
+    "has_images": false
+  },
+  {
+    "topic": "Number Operations",
+    "question": "2/5\u00f71/3=?",
+    "incorrect_answer": "2/5\u00f71/3=5/2*1/3=5/6",
+    "actual_misconception": "when students incorrectly invert the dividend instead of the divisor when dividing fractions, misunderstanding the 'invert and multiply' rule.",
+    "predicted_misconception": "The incorrect answer arises from a misunderstanding of how to divide fractions. The correct method for dividing fractions is to multiply by the reciprocal of the divisor.\n\nLet's go through the correct steps:\n\n1. Start with the original problem: \\(\\frac{2}{5} \\div \\frac{1}{3}\\).\n\n2. To divide by a fraction, multiply by its reciprocal. The reciprocal of \\(\\frac{1}{3}\\) is \\(\\frac{3}{1}\\).\n\n3. So, \\(\\frac{2}{5} \\div \\frac{1}{3}\\) becomes \\(\\frac{2}{5} \\times \\frac{3}{1}\\).\n\n4. Multiply the numerators: \\(2 \\times 3 = 6\\).\n\n5. Multiply the denominators: \\(5 \\times 1 = 5\\).\n\n6. Therefore, \\(\\frac{2}{5} \\div \\frac{1}{3} = \\frac{6}{5}\\).\n\nThe correct answer is \\(\\frac{6}{5}\\), not \\(\\frac{5}{6}\\). The error in the incorrect answer was due to incorrectly flipping the first fraction instead of the second one (the divisor).",
+    "has_images": false
+  },
+  {
+    "topic": "Number Operations",
+    "question": "Reduce 4/9",
+    "incorrect_answer": "4/9=2/3",
+    "actual_misconception": "when students inaccurately simplify fractions by guessing instead of dividing",
+    "predicted_misconception": "The incorrect answer provided, 4/9 = 2/3, is a common misconception that arises from incorrectly simplifying fractions.\n\nTo correctly simplify a fraction, you need to find the greatest common divisor (GCD) of the numerator and the denominator and divide both by that number. \n\nFor the fraction 4/9:\n- The numerator is 4, and the denominator is 9.\n- The factors of 4 are 1, 2, and 4.\n- The factors of 9 are 1, 3, and 9.\n- The greatest common divisor of 4 and 9 is 1, as they have no other common factors.\n\nSince the GCD is 1, the fraction 4/9 is already in its simplest form and cannot be reduced further. Therefore, the correct simplified form of 4/9 is indeed 4/9.",
+    "has_images": false
+  },
+  {
+    "topic": "Number Operations",
+    "question": "6/10\u00f72/4=?",
+    "incorrect_answer": "6/10\u00f72/4=3/2",
+    "actual_misconception": "when students wrongly divide fractions by splitting numerators and denominators into separate divisions, ignoring remainders",
+    "predicted_misconception": "The incorrect answer arises from a misunderstanding of how to divide fractions. Let's go through the correct process step-by-step:\n\n1. **Understand Division of Fractions**: Dividing by a fraction is equivalent to multiplying by its reciprocal. Therefore, \\( \\frac{6}{10} \\div \\frac{2}{4} \\) is the same as \\( \\frac{6}{10} \\times \\frac{4}{2} \\).\n\n2. **Find the Reciprocal**: The reciprocal of \\( \\frac{2}{4} \\) is \\( \\frac{4}{2} \\).\n\n3. **Multiply the Fractions**: Now, multiply \\( \\frac{6}{10} \\) by \\( \\frac{4}{2} \\):\n   \\[\n   \\frac{6}{10} \\times \\frac{4}{2} = \\frac{6 \\times 4}{10 \\times 2} = \\frac{24}{20}\n   \\]\n\n4. **Simplify the Fraction**: Simplify \\( \\frac{24}{20} \\) by finding the greatest common divisor (GCD) of 24 and 20, which is 4:\n   \\[\n   \\frac{24}{20} = \\frac{24 \\div 4}{20 \\div 4} = \\frac{6}{5}\n   \\]\n\nTherefore, the correct answer is \\( \\frac{6}{5} \\), not \\( \\frac{3}{2} \\). The mistake likely occurred from incorrect simplification or misunderstanding the division process.",
+    "has_images": false
+  },
+  {
+    "topic": "Ratios and proportional reasoning",
+    "question": "Seventy is 14% of what number?",
+    "incorrect_answer": "70*.14=9.8\n9.8",
+    "actual_misconception": "when students struggle to discern the three types of percent problems, relying solely on \"percent times a number equals percentage\" rule",
+    "predicted_misconception": "The incorrect answer arises from a misunderstanding of the percentage relationship. The calculation \\(70 \\times 0.14 = 9.8\\) incorrectly assumes that 70 is 14% of itself, which is not the case. Instead, we need to find the whole number \\(X\\) such that 14% of \\(X\\) equals 70.\n\nTo solve this correctly, set up the equation:\n\n\\[ 0.14 \\times X = 70 \\]\n\nTo find \\(X\\), divide both sides of the equation by 0.14:\n\n\\[ X = \\frac{70}{0.14} \\]\n\n\\[ X = 500 \\]\n\nTherefore, 70 is 14% of 500.",
+    "has_images": false
+  },
+  {
+    "topic": "Algebraic representations",
+    "question": "Use your ruler to solve this problem.\nOn the grid below [An empty cartesian plane is provided, that goes from -6 to 6 on each of the axes, increasing by one], graph the points (-2,4), (3,4), (2,2) and (-3,2)\nNow connect the points in the order listed above to make a polygon. On the line below, write the name of the polygon you drew.",
+    "incorrect_answer": "[The learner plotted: (4,-2), (4,3), (2,2), and (2,-3)] \nIt's a rhombus",
+    "actual_misconception": "when students struggle with plotting points, reversing the x- and y-coordinates",
+    "predicted_misconception": "The learner made a mistake in plotting the points. The correct points to plot are (-2, 4), (3, 4), (2, 2), and (-3, 2). \n\nOnce plotted correctly, connecting these points in the given order forms a trapezoid, not a rhombus.",
+    "has_images": true
+  },
+  {
+    "topic": "Equations and inequalities",
+    "question": "x+4=2",
+    "incorrect_answer": "x=2\nVariables can't take negative numbers, so the answer has to be 2",
+    "actual_misconception": "when students find it challenging to comprehend the various meanings and applications of variables",
+    "predicted_misconception": "The incorrect answer and explanation reveal a common misconception about variables and their possible values. Let's address the mistake and clarify the correct approach:\n\n1. **Misconception**: The statement \"Variables can't take negative numbers\" is incorrect. Variables can indeed take any real number value, including negative numbers, positive numbers, zero, and even fractions or irrational numbers, depending on the context of the problem.\n\n2. **Correct Solution**:\n   To solve the equation \\(x + 4 = 2\\), you need to isolate the variable \\(x\\). You can do this by subtracting 4 from both sides of the equation:\n\n   \\[\n   x + 4 - 4 = 2 - 4\n   \\]\n\n   Simplifying both sides gives:\n\n   \\[\n   x = -2\n   \\]\n\n   Therefore, the correct solution is \\(x = -2\\).\n\n3. **Conclusion**: The variable \\(x\\) can indeed take the value \\(-2\\), which is a valid solution to the equation. It's important to remember that variables can represent any number that satisfies the given equation or inequality.",
+    "has_images": false
+  },
+  {
+    "topic": "Number Operations",
+    "question": "4+-3=",
+    "incorrect_answer": "4+-3=7",
+    "actual_misconception": "when students are unsure of the correct sign when adding positive and negative numbers",
+    "predicted_misconception": "The incorrect answer provided for the expression \\(4 + (-3)\\) is 7. This is a common misconception that arises from misunderstanding how to handle addition with negative numbers.\n\nTo correct this, let's break down the expression:\n\n1. The expression \\(4 + (-3)\\) involves adding a negative number to a positive number.\n2. Adding a negative number is equivalent to subtracting the absolute value of that number.\n3. Therefore, \\(4 + (-3)\\) is the same as \\(4 - 3\\).\n4. Subtracting 3 from 4 gives us 1.\n\nSo, the correct answer is \\(4 + (-3) = 1\\).",
+    "has_images": false
+  },
+  {
+    "topic": "Number Operations",
+    "question": "Subtract 1/3 from 1",
+    "incorrect_answer": "1 \n   -     1/3\n-------------\n        1 1/3",
+    "actual_misconception": "when students subtract mixed numbers incorrectly, avoiding regrouping and just subtracting the smaller from the larger number",
+    "predicted_misconception": "The incorrect answer arises from a misunderstanding of how to subtract fractions from whole numbers. Let's go through the correct process:\n\n1. **Convert the Whole Number to a Fraction**: \n   To subtract a fraction from a whole number, it's helpful to express the whole number as a fraction with the same denominator as the fraction you're subtracting. In this case, convert 1 to a fraction with a denominator of 3:\n\n   \\[\n   1 = \\frac{3}{3}\n   \\]\n\n2. **Subtract the Fractions**:\n   Now subtract \\(\\frac{1}{3}\\) from \\(\\frac{3}{3}\\):\n\n   \\[\n   \\frac{3}{3} - \\frac{1}{3} = \\frac{3 - 1}{3} = \\frac{2}{3}\n   \\]\n\nSo, the correct answer is \\(\\frac{2}{3}\\), not \\(1 \\frac{1}{3}\\). The mistake in the original solution likely came from incorrectly handling the subtraction process or misunderstanding how to work with fractions and whole numbers.",
+    "has_images": false
+  },
+  {
+    "topic": "Number Operations",
+    "question": "1/2*3/8=",
+    "incorrect_answer": "1/2*3/8=68",
+    "actual_misconception": "When students multiply the numerator of the first fraction by the denominator of the second fraction, they write down only the unit digit of this product and mistakenly save the tens digit for later use, then they multiply the denominator of the first fraction by the numerator of the second one and add the saved tend digit, obtaining an integer number instead of a fraction.",
+    "predicted_misconception": "The incorrect answer provided, \\( \\frac{1}{2} \\times \\frac{3}{8} = 68 \\), is a clear mathematical misconception. Let's identify and correct the mistake.\n\nTo multiply two fractions, you multiply the numerators together and the denominators together:\n\n\\[\n\\frac{1}{2} \\times \\frac{3}{8} = \\frac{1 \\times 3}{2 \\times 8} = \\frac{3}{16}\n\\]\n\nThe correct answer is \\( \\frac{3}{16} \\), not 68. It seems there might have been a misunderstanding or a typographical error in the calculation process that led to the incorrect answer of 68.",
+    "has_images": false
+  },
+  {
+    "topic": "Patterns, relationships, and functions",
+    "question": "Sara has made several purchases from a mail-order company.  She has found that the company charges $12.90 to ship an 8-kg package, $6.40 to ship a 3-kg package, and $9.00 to ship a 5-kg package.  Sara decides that the company must be using a  simple rule to determine how much to charge for shipping.  Help her figure out how much it would most likely cost to ship a 1-kg package and how much each additional kilogram would cost.",
+    "incorrect_answer": "I will calculate the cost per kilogram for each package:\n12.9/8=1.6125\u00a0dollars\u00a0per\u00a0kg, for the 8-kg package\n6.40/3=2.1333\u00a0dollars\u00a0per\u00a0kg, for the 3-kg package\n9.00/5=1.80\u00a0dollars\u00a0per\u00a0kg, for the 5-kg package\nThe average is: (1.6125+2.1333+1.80)/3=1.8486\u00a0dollars\u00a0per\u00a0kg\nThe cost to ship 1-kg package is: (1.8486\u00a0dollars/kg)*(1\u00a0kg)=1.8486\u00a0dollars\nIt will cost $1.85 to ship a 1-kg package, and each additional kilogram will cost $1.85",
+    "actual_misconception": "when students confuse linear relationships with direct proportions, believing that because a linear function increases or decreases at a constant rate, it must be a direct proportion.",
+    "predicted_misconception": "The incorrect answer provided is based on the misconception that the cost per kilogram is constant across different package weights. However, the data suggests that there might be a fixed base cost plus an additional cost per kilogram.\n\nLet's analyze the given data:\n\n1. An 8-kg package costs $12.90.\n2. A 3-kg package costs $6.40.\n3. A 5-kg package costs $9.00.\n\nTo find the cost structure, let's assume the cost to ship a package is composed of a fixed base cost (B) plus a variable cost per kilogram (C). Therefore, the cost equation can be expressed as:\n\n\\[ \\text{Total Cost} = B + C \\times \\text{Weight (kg)} \\]\n\nWe can set up the following system of equations based on the given data:\n\n1. \\( B + 8C = 12.90 \\)\n2. \\( B + 3C = 6.40 \\)\n3. \\( B + 5C = 9.00 \\)\n\nLet's solve these equations to find B and C.\n\nSubtract the second equation from the first:\n\n\\[ (B + 8C) - (B + 3C) = 12.90 - 6.40 \\]\n\\[ 5C = 6.50 \\]\n\\[ C = 1.30 \\]\n\nNow, substitute \\( C = 1.30 \\) into the second equation:\n\n\\[ B + 3(1.30) = 6.40 \\]\n\\[ B + 3.90 = 6.40 \\]\n\\[ B = 2.50 \\]\n\nThus, the cost structure is:\n- Base cost (B) = $2.50\n- Cost per kilogram (C) = $1.30\n\nTherefore, the cost to ship a 1-kg package would be:\n\n\\[ \\text{Cost for 1 kg} = B + 1 \\times C = 2.50 + 1.30 = 3.80 \\]\n\nEach additional kilogram would cost $1.30.",
+    "has_images": false
+  },
+  {
+    "topic": "Ratios and proportional reasoning",
+    "question": "Adrian has conquered only 6 giants in his new video game, Giant Trouble, but this is only two-fifths of the giants that he must conquer. How many giants are there in the new video game?",
+    "incorrect_answer": "6 2/5 = 32/5, then there are 32 giants\n32 giants",
+    "actual_misconception": "when students lack unitization skills, unable to treat ratios as composite units to solve problems systematically.",
+    "predicted_misconception": "The incorrect answer arises from a misunderstanding of the problem statement and the mathematical operations involved.\n\nThe problem states that Adrian has conquered 6 giants, which is two-fifths of the total number of giants. To find the total number of giants, we need to set up the equation based on the given information:\n\nLet \\( x \\) be the total number of giants. According to the problem, two-fifths of \\( x \\) equals 6:\n\n\\[\n\\frac{2}{5}x = 6\n\\]\n\nTo solve for \\( x \\), multiply both sides of the equation by the reciprocal of \\(\\frac{2}{5}\\), which is \\(\\frac{5}{2}\\):\n\n\\[\nx = 6 \\times \\frac{5}{2}\n\\]\n\n\\[\nx = \\frac{30}{2}\n\\]\n\n\\[\nx = 15\n\\]\n\nTherefore, there are 15 giants in the video game. The incorrect answer of 32 giants resulted from a misinterpretation of the fraction and incorrect arithmetic operations.",
+    "has_images": false
+  },
+  {
+    "topic": "Equations and inequalities",
+    "question": "Write an equation to represent the following statement: \u2018At this company, there are six times as many workers as managers\u2019. Assuming that the variable W represents the number of workers and M the number of managers.",
+    "incorrect_answer": "6W=M",
+    "actual_misconception": "when students make reversal order errors, swapping variables in equations, such as writing 2X=Y instead of X=2Y",
+    "predicted_misconception": "The incorrect answer, \\(6W = M\\), suggests that the number of managers is six times the number of workers, which is the opposite of what the statement describes. The statement says that there are six times as many workers as managers, meaning the number of workers is six times the number of managers.\n\nThe correct equation should reflect that the number of workers (\\(W\\)) is six times the number of managers (\\(M\\)). Therefore, the correct equation is:\n\n\\[ W = 6M \\]",
+    "has_images": false
+  },
+  {
+    "topic": "Equations and inequalities",
+    "question": "Write an expression that could be used to represent the number of rows, if there were n girls all together and each row had 6 girls.",
+    "incorrect_answer": "6n",
+    "actual_misconception": "when students make reversal order errors, swapping variables in equations, such as writing 2X=Y instead of X=2Y",
+    "predicted_misconception": "The incorrect answer \"6n\" suggests a misunderstanding of how to set up the expression for the number of rows. The expression \"6n\" implies multiplying the number of girls by 6, which would incorrectly calculate a larger number rather than dividing the total number of girls into groups of 6.\n\nThe correct approach is to divide the total number of girls, \\( n \\), by the number of girls per row, which is 6. Therefore, the correct expression to represent the number of rows is:\n\n\\[\n\\frac{n}{6}\n\\]\n\nThis expression correctly divides the total number of girls by the number of girls in each row to find the number of rows needed.",
+    "has_images": false
+  },
+  {
+    "topic": "Number Operations",
+    "question": "21.8*.4=?",
+    "incorrect_answer": "21.8\nx .4\n-------\n87.2",
+    "actual_misconception": "when students wrongly position the decimal in multiplication by counting from the left, not the right",
+    "predicted_misconception": "The incorrect answer provided stems from a misunderstanding of how to multiply decimals. Let's go through the correct process:\n\n1. **Ignore the Decimals Initially**: Treat the numbers as whole numbers. Multiply 218 by 4.\n\n   \\[\n   218 \\times 4 = 872\n   \\]\n\n2. **Count the Decimal Places**: In the original problem, 21.8 has one decimal place, and 0.4 also has one decimal place. Together, they have a total of two decimal places.\n\n3. **Place the Decimal in the Product**: Since the total number of decimal places in the factors is two, the product should also have two decimal places. Therefore, place the decimal point two places from the right in 872.\n\n   \\[\n   8.72\n   \\]\n\nThus, the correct answer to \\(21.8 \\times 0.4\\) is \\(8.72\\). The error in the original calculation was not accounting for the decimal places correctly.",
+    "has_images": false
+  },
+  {
+    "topic": "Ratios and proportional reasoning",
+    "question": "You had a picture on your computer and you made it 3/4 (75%) of its original size. You changed your mind and now you want it back to its original size again. What fraction of its present size should you tell the computer to make it in order to restore its original size?",
+    "incorrect_answer": "To get it at 3/4 you had to do 75% of the original. So that means you took off 25% of its size. To get it back, you should enlarge it 25% by setting the number at 125%, or 1.25",
+    "actual_misconception": "when students misunderstand how to identify and use equivalent forms of ratios, including fractions and decimals",
+    "predicted_misconception": "The incorrect answer stems from a misunderstanding of how percentages and fractions work in resizing. When you reduce an image to 3/4 of its original size, you are multiplying its dimensions by 0.75. To return the image to its original size, you need to reverse this operation.\n\nTo find the correct scaling factor, you need to determine what number, when multiplied by 0.75, results in 1 (the original size). This can be calculated as follows:\n\nLet \\( x \\) be the scaling factor needed to return the image to its original size. Then:\n\n\\[ 0.75 \\times x = 1 \\]\n\nSolving for \\( x \\):\n\n\\[ x = \\frac{1}{0.75} = \\frac{4}{3} \\approx 1.3333 \\]\n\nTherefore, you should set the computer to enlarge the image by a factor of \\( \\frac{4}{3} \\) or approximately 133.33% of its current size to restore it to its original size. The incorrect answer of 125% arises from a misunderstanding of how to reverse the initial reduction.",
+    "has_images": false
+  },
+  {
+    "topic": "Equations and inequalities",
+    "question": "Kate sold 12 tickets to a school play. Katie's total sales, t, for the tickets is given by the formula \n12c=t\nwhere c is the cost per ticket.\nWhat were Katie's total sales if the cost of each ticket is $5?",
+    "incorrect_answer": "All I have to do is to replace the first letter in the equation, with the first number given in the statement:\n12(12)=144",
+    "actual_misconception": "when students get confusion over operation symbols and their meanings in algebra",
+    "predicted_misconception": "The incorrect answer arises from a misunderstanding of how to substitute values into the given formula. The formula provided is \\(12c = t\\), where \\(c\\) is the cost per ticket, and \\(t\\) is the total sales. \n\nTo find Katie's total sales when the cost of each ticket is $5, you should substitute \\(c = 5\\) into the equation, not the number of tickets sold (which is 12). The correct substitution and calculation are as follows:\n\n1. Substitute \\(c = 5\\) into the equation: \n   \\[\n   12 \\times 5 = t\n   \\]\n\n2. Calculate the total sales:\n   \\[\n   60 = t\n   \\]\n\nTherefore, Katie's total sales were $60. The mistake was in substituting the number of tickets sold (12) for \\(c\\) instead of the cost per ticket.",
+    "has_images": false
+  },
+  {
+    "topic": "Properties of number and operations",
+    "question": "Write the \u201cSwitch-Around Rule\u201d in your own words, and give examples to show if it\u2019s always, sometimes, or rarely true.",
+    "incorrect_answer": "The switch-around rule says 2-1=1 and 1-2=1",
+    "actual_misconception": "when students incorrectly assume the commutative and associative properties apply to subtraction and division, akin to the \"Switch-Around Rule.\"",
+    "predicted_misconception": "The \"Switch-Around Rule\" is often a reference to the commutative property, which applies to addition and multiplication, but not to subtraction or division. The commutative property states that the order of numbers can be switched around without changing the result. For example, in addition, \\(a + b = b + a\\), and in multiplication, \\(a \\times b = b \\times a\\).\n\nHowever, this property does not hold for subtraction. For subtraction, changing the order of the numbers will change the result. For example:\n\n- \\(2 - 1 = 1\\), but \\(1 - 2 = -1\\).\n\nAs you can see, switching the numbers around in subtraction gives a different result, so the \"Switch-Around Rule\" is not true for subtraction. Therefore, the rule is never true for subtraction. \n\nSimilarly, for division:\n\n- \\(6 \\div 3 = 2\\), but \\(3 \\div 6 = 0.5\\).\n\nAgain, switching the numbers around in division gives a different result, so the \"Switch-Around Rule\" is not true for division either.",
+    "has_images": false
+  },
+  {
+    "topic": "Ratios and proportional reasoning",
+    "question": "Samer has 35 red glass balls in a bag and 25 green glass balls.\nWhat is the ratio of the green balls to all glass balls in the bag in the simplest form?",
+    "incorrect_answer": "25 and 60",
+    "actual_misconception": "when students fail to see ratios as relationships between two quantities",
+    "predicted_misconception": "The incorrect answer seems to stem from a misunderstanding of how to calculate the ratio of the green balls to all the glass balls in the bag.\n\nTo find the correct ratio, follow these steps:\n\n1. **Calculate the total number of glass balls:**\n   - Red balls = 35\n   - Green balls = 25\n   - Total balls = 35 + 25 = 60\n\n2. **Determine the ratio of green balls to all balls:**\n   - The number of green balls is 25.\n   - The total number of balls is 60.\n   - Therefore, the ratio of green balls to all balls is 25:60.\n\n3. **Simplify the ratio:**\n   - Find the greatest common divisor (GCD) of 25 and 60, which is 5.\n   - Divide both terms of the ratio by 5:\n     - 25 \u00f7 5 = 5\n     - 60 \u00f7 5 = 12\n\nSo, the simplest form of the ratio of green balls to all glass balls is 5:12.",
+    "has_images": false
+  },
+  {
+    "topic": "Patterns, relationships, and functions",
+    "question": "This line [pointing to a graph of y=x that goes from (0,0) to (10,10); the x- and y- axes are labeled as 0, 2, 4, 6, 8, 10] has a certain steepness to it... If you had to give a number to this steepness, what would you give it? Look at these numbers (pointing to the corresponding table of values).\nTable of values\nx   |   y\n-4  |  -4\n-2  |  -2\n0  |  0\n2  |  2\n4  |  4",
+    "incorrect_answer": "I would give it a steepness of -2",
+    "actual_misconception": "when students misinterpret slope signs in equations versus their upward or downward trends in graphs.",
+    "predicted_misconception": "The steepness of the line, also known as the slope, is calculated by the change in \\( y \\) divided by the change in \\( x \\). From the table and graph, you can see that for every increase of 1 in \\( x \\), \\( y \\) also increases by 1. \n\nUsing any two points, such as (0, 0) and (2, 2):\n\n\\[\n\\text{slope} = \\frac{\\Delta y}{\\Delta x} = \\frac{2 - 0}{2 - 0} = 1\n\\]\n\nSo, the steepness or slope of the line is 1.",
+    "has_images": true
+  },
+  {
+    "topic": "Number Operations",
+    "question": "253-179=",
+    "incorrect_answer": "253\n- 179\n----------\n 126",
+    "actual_misconception": "when students fail to regroup in subtraction, mistakenly subtracting the larger number from the smaller",
+    "predicted_misconception": "The subtraction problem presented is \\(253 - 179\\), and the incorrect answer given is 126. Let's identify the mistake and correct it.\n\nTo solve \\(253 - 179\\) correctly, follow these steps:\n\n1. **Subtract the units place**: \n   - 3 (from 253) minus 9 (from 179) cannot be done directly since 3 is smaller than 9. So, we need to borrow 1 from the tens place.\n   - Borrowing 1 from the tens place (5 becomes 4), the units place becomes 13.\n   - Now, 13 - 9 = 4.\n\n2. **Subtract the tens place**:\n   - After borrowing, the tens digit of 253 is now 4.\n   - 4 (from 253) minus 7 (from 179) cannot be done directly since 4 is smaller than 7. So, we need to borrow 1 from the hundreds place.\n   - Borrowing 1 from the hundreds place (2 becomes 1), the tens place becomes 14.\n   - Now, 14 - 7 = 7.\n\n3. **Subtract the hundreds place**:\n   - After borrowing, the hundreds digit of 253 is now 1.\n   - 1 (from 253) minus 1 (from 179) = 0.\n\nPutting it all together, the correct answer is:\n\n\\[\n253 - 179 = 74\n\\]\n\nThe mistake in the original calculation likely occurred during the borrowing process, leading to an incorrect result of 126.",
+    "has_images": false
+  },
+  {
+    "topic": "Ratios and proportional reasoning",
+    "question": "Brad earned $400 during the summer and saved $240 from his earnings. What percent of his earnings did he spend?",
+    "incorrect_answer": "(240/400)=(x/100)\n60%",
+    "actual_misconception": "when students incorrectly apply a single proportion formula to all percentage problems: (smaller value)/(larger value) = (x/100)",
+    "predicted_misconception": "The incorrect answer arises from a misunderstanding of the problem. The question asks for the percentage of his earnings that Brad spent, not the percentage he saved.\n\nTo find the percentage of his earnings that Brad spent, we first need to determine how much he spent. Since he saved $240 out of $400, the amount he spent is:\n\n\\[ 400 - 240 = 160 \\]\n\nNow, to find the percentage of his earnings that he spent, we use the formula:\n\n\\[\n\\left(\\frac{\\text{Amount Spent}}{\\text{Total Earnings}}\\right) \\times 100\n\\]\n\nSubstitute the known values:\n\n\\[\n\\left(\\frac{160}{400}\\right) \\times 100 = 40\\%\n\\]\n\nTherefore, Brad spent 40% of his earnings. The error in the original solution was calculating the percentage saved instead of the percentage spent.",
+    "has_images": false
+  }
+]

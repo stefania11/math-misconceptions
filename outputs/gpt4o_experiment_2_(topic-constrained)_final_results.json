@@ -1,0 +1,66 @@
+[
+  {
+    "topic": "Algebraic representations",
+    "question": "Write down an example of a function. Represent that same function in four different ways",
+    "incorrect_answer": "The learner represented the function with the equation: x=1(y)+5\nWith the statement: \"Every hour you earn $5 more\"\nAnd with a data-table and a graph\nData table:\nx | 1 |  2  |  3  |  4  | 5  \ny | 5 | 10 | 15 | 20 | 25\nOn the graph, the learner plotted the y-data on the horizontal axis and the x-data on the vertical one",
+    "actual_misconception": "when students struggle with plotting points, reversing the x- and y-coordinates",
+    "predicted_misconception": "The learner made several mistakes in representing the function. Let's correct them and represent the function in four different ways:\n\n### Correct Function Representation\n\n1. **Equation**: \n   - The correct equation should be \\( y = 5x \\).\n\n2. **Verbal Description**: \n   - \"You earn $5 for each hour worked.\"\n\n3. **Data Table**:\n   - \\[\n   \\begin{array}{c|c}\n   x & y \\\\\n   \\hline\n   1 & 5 \\\\\n   2 & 10 \\\\\n   3 & 15 \\\\\n   4 & 20 \\\\\n   5 & 25 \\\\\n   \\end{array}\n   \\]\n\n4. **Graph**:\n   - Plot \\( x \\) on the horizontal axis and \\( y \\) on the vertical axis. The points should form a straight line through the origin (0,0) with a slope of 5.\n\nThese corrections ensure that the function is consistently represented across all formats.",
+    "has_images": true
+  },
+  {
+    "topic": "Number Operations",
+    "question": "Add 3/4+1/2=?",
+    "incorrect_answer": "3/4=3/4\n1/2=1/4\n3/4+1/4=4/4",
+    "actual_misconception": "when students find common denominators but wrongly keep the original numerators unchanged",
+    "predicted_misconception": "The incorrect answer provided contains a few misconceptions about fractions and their addition:\n\n1. **Misinterpretation of Fractions**: The statement \"1/2 = 1/4\" is incorrect. The fraction 1/2 is not equal to 1/4. This seems to be a misunderstanding or miscalculation.\n\n2. **Addition of Fractions**: When adding fractions, you need a common denominator. The fractions 3/4 and 1/2 have different denominators (4 and 2, respectively).\n\nHere's the correct way to add these fractions:\n\n1. **Find a Common Denominator**: The least common denominator of 4 and 2 is 4.\n\n2. **Convert Fractions**: \n   - The fraction 3/4 already has the denominator 4.\n   - Convert 1/2 to a fraction with the denominator 4. To do this, multiply both the numerator and the denominator by 2: \n     \\[\n     1/2 = (1 \\times 2)/(2 \\times 2) = 2/4\n     \\]\n\n3. **Add the Fractions**: \n   - Now that both fractions have the same denominator, you can add them:\n     \\[\n     3/4 + 2/4 = (3 + 2)/4 = 5/4\n     \\]\n\nSo, the correct answer is \\(5/4\\) or \\(1 \\frac{1}{4}\\) as a mixed number.",
+    "has_images": false
+  },
+  {
+    "topic": "Number sense",
+    "question": "Fill in the blank with >, < or =\n0.9 __ 0.01",
+    "incorrect_answer": "0.9 < 0.01",
+    "actual_misconception": "when Students think longer numerals mean larger numbers, misunderstanding place value",
+    "predicted_misconception": "The incorrect answer suggests a misunderstanding of decimal place value. To compare the numbers 0.9 and 0.01, we need to understand the value of each digit in its respective place.\n\n- The number 0.9 has a 9 in the tenths place, which means it is equivalent to 9/10 or 0.90.\n- The number 0.01 has a 1 in the hundredths place, which means it is equivalent to 1/100.\n\nSince 0.9 (or 0.90) is much larger than 0.01, the correct comparison is:\n\n0.9 > 0.01\n\nThe misconception here might stem from not recognizing that 0.9 is almost a whole unit (close to 1), while 0.01 is much smaller, being only one hundredth of a unit.",
+    "has_images": false
+  },
+  {
+    "topic": "Ratios and proportional reasoning",
+    "question": "Samer has 35 red glass balls in a bag and 25 green glass balls. \nWhat is the ratio of the red glass balls to the green ones in\nthe simplest form?",
+    "incorrect_answer": "35 and 25",
+    "actual_misconception": "when students fail to see ratios as relationships between two quantities",
+    "predicted_misconception": "The incorrect answer provided, \"35 and 25,\" seems to misunderstand the concept of a ratio. A ratio is a way to compare two quantities by division, and it should be expressed in its simplest form.\n\nTo find the ratio of the red glass balls to the green glass balls, you start with the given numbers: 35 red balls and 25 green balls. The ratio is initially written as 35:25.\n\nTo simplify this ratio, you need to find the greatest common divisor (GCD) of the two numbers. The GCD of 35 and 25 is 5.\n\nNow, divide both numbers by their GCD:\n\n- 35 \u00f7 5 = 7\n- 25 \u00f7 5 = 5\n\nThus, the simplest form of the ratio of red glass balls to green glass balls is 7:5.",
+    "has_images": false
+  },
+  {
+    "topic": "Equations and inequalities",
+    "question": "Solve: 5x+6x=110",
+    "incorrect_answer": "x=0\n50+60=110",
+    "actual_misconception": "when students struggle to recognize when to combine like terms, failing to add or subtract terms with the same variable, as in 4x+2x+x=7x",
+    "predicted_misconception": "The incorrect answer provided seems to stem from a misunderstanding of how to combine like terms and solve a basic algebraic equation. Let's go through the correct steps to solve the equation:\n\nThe original equation is:\n\\[ 5x + 6x = 110 \\]\n\nStep 1: Combine like terms on the left side of the equation. The terms \\(5x\\) and \\(6x\\) are like terms because they both contain the variable \\(x\\). When you combine them, you add their coefficients:\n\n\\[ 5x + 6x = (5 + 6)x = 11x \\]\n\nSo the equation becomes:\n\\[ 11x = 110 \\]\n\nStep 2: Solve for \\(x\\) by dividing both sides of the equation by 11:\n\n\\[ x = \\frac{110}{11} \\]\n\n\\[ x = 10 \\]\n\nTherefore, the correct solution is \\(x = 10\\).\n\nThe incorrect answer \\(x = 0\\) likely resulted from a misunderstanding of how to handle the equation, possibly confusing the process of combining terms or incorrectly simplifying the equation. The step \"50 + 60 = 110\" seems to be an attempt to substitute \\(x = 0\\) into the equation, but this is not a valid step in solving for \\(x\\).",
+    "has_images": false
+  },
+  {
+    "topic": "Properties of number and operations",
+    "question": "True or false?\n2\u00f73=3\u00f72",
+    "incorrect_answer": "True, because of the switch-around rule",
+    "actual_misconception": "when students incorrectly assume the commutative and associative properties apply to subtraction and division, akin to the \"Switch-Around Rule.\"",
+    "predicted_misconception": "The statement \"2 \u00f7 3 = 3 \u00f7 2\" is false. The \"switch-around rule\" mentioned in the incorrect answer is a misunderstanding. Division is not commutative, meaning you cannot switch the numbers around and get the same result, unlike addition or multiplication.\n\nTo clarify:\n\n- \\(2 \\div 3\\) is approximately \\(0.6667\\).\n- \\(3 \\div 2\\) is \\(1.5\\).\n\nThese two values are clearly not equal. The misconception here is treating division as if it were commutative, which it is not.",
+    "has_images": false
+  },
+  {
+    "topic": "Patterns, relationships, and functions",
+    "question": "Marcus is at the music store buying guitar strings for his band. If there are 3 guitar players in the band, and each guitar has 6 strings, how many things should Marcus buy?",
+    "incorrect_answer": "[The learner's answer is a graphic representation of only a guitar with 6 strings]",
+    "actual_misconception": "when students struggle to accurately represent problems using graphical notation, misunderstanding the purpose of the representation",
+    "predicted_misconception": "The learner's answer is incorrect because it doesn't address the question numerically. To find out how many strings Marcus should buy, we need to calculate the total number of strings needed for all the guitars.\n\nThere are 3 guitar players, and each guitar has 6 strings. Therefore, the total number of strings needed is:\n\n\\[ 3 \\text{ guitars} \\times 6 \\text{ strings per guitar} = 18 \\text{ strings} \\]\n\nMarcus should buy 18 strings.",
+    "has_images": true
+  },
+  {
+    "topic": "Variables, expressions, and operations",
+    "question": "Write an algebraic expression to represent: Three less than a number.",
+    "incorrect_answer": "3-x",
+    "actual_misconception": "when students mistakenly switch variables when transposing expressions involving subtraction",
+    "predicted_misconception": "The incorrect answer \"3-x\" represents \"three minus a number,\" which is not the same as \"three less than a number.\" The phrase \"three less than a number\" implies that you start with a number and then subtract three from it. \n\nTo correctly represent \"three less than a number,\" you should write the expression as:\n\n\\[ x - 3 \\]\n\nHere, \\( x \\) represents the unknown number, and subtracting 3 from it gives the correct expression for \"three less than a number.\"",
+    "has_images": false
+  }
+]

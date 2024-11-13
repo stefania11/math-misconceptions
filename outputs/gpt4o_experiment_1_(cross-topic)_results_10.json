@@ -1,0 +1,82 @@
+[
+  {
+    "topic": "Number Operations",
+    "question": "Solve x+1/3=7",
+    "incorrect_answer": "x+1/3=7\nx=7-1/3=6/3=2",
+    "actual_misconception": "when students subtract mixed numbers incorrectly, avoiding regrouping and just subtracting the smaller from the larger number",
+    "predicted_misconception": "The incorrect answer provided contains a few misconceptions in the process of solving the equation. Let's address these step-by-step:\n\n1. **Equation Setup**: The original equation is \\( x + \\frac{1}{3} = 7 \\).\n\n2. **Isolating \\( x \\)**: To solve for \\( x \\), we need to isolate it on one side of the equation. This involves subtracting \\(\\frac{1}{3}\\) from both sides of the equation:\n\n   \\[\n   x = 7 - \\frac{1}{3}\n   \\]\n\n3. **Subtracting Fractions**: The error occurs in the subtraction step. The incorrect solution attempts to subtract \\(\\frac{1}{3}\\) directly from 7 without converting 7 into a fraction with a common denominator.\n\n   To correctly subtract these, convert 7 into a fraction with a denominator of 3:\n\n   \\[\n   7 = \\frac{21}{3}\n   \\]\n\n   Now, subtract \\(\\frac{1}{3}\\) from \\(\\frac{21}{3}\\):\n\n   \\[\n   x = \\frac{21}{3} - \\frac{1}{3} = \\frac{20}{3}\n   \\]\n\n4. **Final Answer**: The correct solution to the equation \\( x + \\frac{1}{3} = 7 \\) is:\n\n   \\[\n   x = \\frac{20}{3}\n   \\]\n\nThe misconception was in the arithmetic operation involving fractions. It's important to ensure that fractions are handled correctly by finding a common denominator before performing addition or subtraction.",
+    "has_images": false
+  },
+  {
+    "topic": "Patterns, relationships, and functions",
+    "question": "From the graph presented, which group is growing faster at the age of 14?\n[The graph represents the age of boys and girls on the x-axis and their average weight in kilograms, on the y-axis. The graph goes from 0 to 16 on the x-axis and from 0 to 70 on the y-axis. There are two lines: one dashed line representing the Boy's average weight in kilograms, in function of their age in years, and one solid line representing the Girl's average weight in kilograms, in function of their age in years. Both lines start resembling a straight line, but start changing into a curve-shape at 11 years]",
+    "incorrect_answer": "Em, I wrote Girls. Because they weigh more than boys and this means that they could be taller than \u2026they could be eating more. Yeah, I know [that the gradient is steeper] but it is not an area it is just for one point",
+    "actual_misconception": "when students struggle to grasp the concept that a linear function represents a consistent rate of change",
+    "predicted_misconception": "To determine which group is growing faster at the age of 14, we need to look at the steepness of the lines on the graph at that age. The steeper the line, the faster the growth rate.\n\nAt age 14, the dashed line (representing boys) is steeper than the solid line (representing girls). This indicates that boys are growing faster than girls at this age. The gradient of the line is what matters here, not the absolute weight.",
+    "has_images": true
+  },
+  {
+    "topic": "Patterns, relationships, and functions",
+    "question": "Make a table of values that would produce the function seen on the graph",
+    "incorrect_answer": "m=(3-0)/(0-25)=3/-2.5\ny=(-3/2.5)x-3\nx    |   y\n0   | -3\n1   | -2\n2   | -1\n2.5 |   0",
+    "actual_misconception": "when students misinterpret slope signs in equations versus their upward or downward trends in graphs.",
+    "predicted_misconception": "The graph shows a line with a positive slope, not a negative one. Let's correct the function and the table of values.\n\nFirst, identify two points on the line. From the graph, it looks like the line passes through (0, -3) and (2.5, 0).\n\nCalculate the slope \\( m \\):\n\n\\[\nm = \\frac{0 - (-3)}{2.5 - 0} = \\frac{3}{2.5} = \\frac{6}{5}\n\\]\n\nThe equation of the line in slope-intercept form \\( y = mx + b \\) is:\n\n\\[\ny = \\frac{6}{5}x - 3\n\\]\n\nNow, create a table of values:\n\n\\[\n\\begin{array}{c|c}\nx & y \\\\\n\\hline\n0 & -3 \\\\\n1 & -2.2 \\\\\n2 & -1.2 \\\\\n2.5 & 0 \\\\\n\\end{array}\n\\]\n\nThis table reflects the correct values for the function \\( y = \\frac{6}{5}x - 3 \\).",
+    "has_images": true
+  },
+  {
+    "topic": "Number sense",
+    "question": "Fill in the blank with >, < or =\n0.04 __ 0.5",
+    "incorrect_answer": "0.04 > 0.5",
+    "actual_misconception": "when Students think longer numerals mean larger numbers, misunderstanding place value",
+    "predicted_misconception": "The incorrect answer suggests a misunderstanding of decimal place value. To compare 0.04 and 0.5, it's helpful to consider them as fractions or to align their decimal places.\n\n0.04 is equivalent to 4/100 or 0.04 in decimal form.\n0.5 is equivalent to 5/10 or 50/100, which is 0.50 in decimal form.\n\nWhen comparing 0.04 and 0.50, it's clear that 0.04 is less than 0.50.\n\nTherefore, the correct comparison is:\n0.04 < 0.5",
+    "has_images": false
+  },
+  {
+    "topic": "Number Operations",
+    "question": "3/4\u00f71/5=?",
+    "incorrect_answer": "3/4\u00f71/5=4/3*1/5=4/15",
+    "actual_misconception": "when students incorrectly invert the dividend instead of the divisor when dividing fractions, misunderstanding the 'invert and multiply' rule.",
+    "predicted_misconception": "The incorrect answer arises from a misunderstanding of how to divide fractions. The correct method for dividing fractions is to multiply by the reciprocal of the divisor.\n\nLet's go through the correct steps:\n\n1. **Identify the problem**: \\( \\frac{3}{4} \\div \\frac{1}{5} \\).\n\n2. **Find the reciprocal of the divisor**: The divisor here is \\( \\frac{1}{5} \\), and its reciprocal is \\( \\frac{5}{1} \\).\n\n3. **Multiply the dividend by the reciprocal of the divisor**: \n   \\[\n   \\frac{3}{4} \\times \\frac{5}{1}\n   \\]\n\n4. **Perform the multiplication**: Multiply the numerators and the denominators:\n   \\[\n   \\frac{3 \\times 5}{4 \\times 1} = \\frac{15}{4}\n   \\]\n\nSo, the correct answer is \\( \\frac{15}{4} \\).\n\nThe error in the incorrect answer was inverting the wrong fraction and then multiplying incorrectly. The correct process involves inverting the divisor, not the dividend, and then multiplying.",
+    "has_images": false
+  },
+  {
+    "topic": "Ratios and proportional reasoning",
+    "question": "Jim correctly solved 88% of 50 test items. How many items did he have correct?",
+    "incorrect_answer": "(50/88)=(x/100)\n57 items",
+    "actual_misconception": "when students incorrectly apply a single proportion formula to all percentage problems: (smaller value)/(larger value) = (x/100)",
+    "predicted_misconception": "The incorrect answer provided seems to stem from a misunderstanding of how percentages work. The equation \\( \\frac{50}{88} = \\frac{x}{100} \\) is incorrect for this problem because it incorrectly sets up a proportion that doesn't relate to the problem's context.\n\nTo find out how many items Jim solved correctly, we need to calculate 88% of 50. The correct calculation is:\n\n\\[ \nx = \\frac{88}{100} \\times 50 \n\\]\n\n\\[ \nx = 0.88 \\times 50 \n\\]\n\n\\[ \nx = 44 \n\\]\n\nJim correctly solved 44 items.",
+    "has_images": false
+  },
+  {
+    "topic": "Patterns, relationships, and functions",
+    "question": "Crystal placed a bucket under a faucet and collected 6 ounces of water in 20 minutes. Joanne placed a bucket under a second faucet and collected 3 ounces of water in 10 minutes. Were the faucets dripping equally fast or was one dropping faster than the other?",
+    "incorrect_answer": "Crystal's faucet is dripping more slowly than Joanne's because it took its time. \nNo, Crystal's faucet is dripping faster because both amounts, time and water, for Crystal's faucet are greater than the corresponding amounts for Joanne's faucet.",
+    "actual_misconception": "when students struggle to grasp the concept that a linear function represents a consistent rate of change",
+    "predicted_misconception": "The incorrect answer contains a common misconception about comparing rates. To determine which faucet is dripping faster, we need to compare the rates of water collection in terms of ounces per minute for each faucet.\n\n1. **Crystal's Faucet:**\n   - Water collected: 6 ounces\n   - Time: 20 minutes\n   - Rate: \\( \\frac{6 \\text{ ounces}}{20 \\text{ minutes}} = 0.3 \\text{ ounces per minute} \\)\n\n2. **Joanne's Faucet:**\n   - Water collected: 3 ounces\n   - Time: 10 minutes\n   - Rate: \\( \\frac{3 \\text{ ounces}}{10 \\text{ minutes}} = 0.3 \\text{ ounces per minute} \\)\n\nBoth faucets have the same rate of 0.3 ounces per minute. Therefore, the faucets are dripping equally fast.\n\nThe misconception in the incorrect answer is the assumption that larger absolute values of time and water collected imply a faster rate. However, rate comparisons require calculating and comparing the ratios of water collected to time for each faucet.",
+    "has_images": false
+  },
+  {
+    "topic": "Equations and inequalities",
+    "question": "There were three kinds of candy bars being sold at the concession stand during the Friday dance. There were 22 more Snickers bars sold than Kit Kat bars and there were 32 more Reese\u2019s Peanut Butter Cups sold than Kit Kat bars. There were 306 candy bars sold in all. How many  of each kind of candy bar was sold?",
+    "incorrect_answer": "I'll use K for the Kit Kat bars, S for Snickers and P for Peanut Butter Cups.\nK=S+22\nP=K+32\nP+k+S=306\nIf I divide 306 by 3, I get 102, there would be 102 bars of each if all were equal. Since there are more Kit Kats, I'll guess K=80.\nP=80+32=112\n80=S+22\n80=58+22, S=58\nP=112, K=80 and S=58\nChecking: 112+80+58=250\nThen, there are more Kit Kats...  My initial guess is wrong...",
+    "actual_misconception": "when students struggle with forming and understanding algebraic expressions and equations.",
+    "predicted_misconception": "The incorrect answer contains several misconceptions and errors in setting up and solving the equations. Let's address these and find the correct solution.\n\n1. **Misinterpretation of Variables:**\n   The initial setup of the equations is incorrect. The relationships between the candy bars should be:\n   - \\( S = K + 22 \\) (There are 22 more Snickers bars than Kit Kat bars)\n   - \\( P = K + 32 \\) (There are 32 more Reese\u2019s Peanut Butter Cups than Kit Kat bars)\n\n2. **Equation Setup:**\n   The total number of candy bars sold is 306, so the equation should be:\n   \\[\n   K + S + P = 306\n   \\]\n\n3. **Substitution:**\n   Substitute the expressions for \\( S \\) and \\( P \\) in terms of \\( K \\) into the total equation:\n   \\[\n   K + (K + 22) + (K + 32) = 306\n   \\]\n\n4. **Simplification:**\n   Simplify the equation:\n   \\[\n   3K + 54 = 306\n   \\]\n\n5. **Solve for \\( K \\):**\n   Subtract 54 from both sides:\n   \\[\n   3K = 252\n   \\]\n   Divide by 3:\n   \\[\n   K = 84\n   \\]\n\n6. **Find \\( S \\) and \\( P \\):**\n   Now that we have \\( K = 84 \\), calculate \\( S \\) and \\( P \\):\n   \\[\n   S = K + 22 = 84 + 22 = 106\n   \\]\n   \\[\n   P = K + 32 = 84 + 32 = 116\n   \\]\n\n7. **Verification:**\n   Check the total:\n   \\[\n   K + S + P = 84 + 106 + 116 = 306\n   \\]\n\nThus, the correct number of each kind of candy bar sold is:\n- Kit Kat bars: 84\n- Snickers bars: 106\n- Reese\u2019s Peanut Butter Cups: 116",
+    "has_images": false
+  },
+  {
+    "topic": "Number Operations",
+    "question": "2/3\u00f73/8=?",
+    "incorrect_answer": "2/3\u00f73/8=3/2*3/8=9/16",
+    "actual_misconception": "when students incorrectly invert the dividend instead of the divisor when dividing fractions, misunderstanding the 'invert and multiply' rule.",
+    "predicted_misconception": "The incorrect answer arises from a misunderstanding of how to divide fractions. The correct method for dividing fractions is to multiply by the reciprocal of the divisor.\n\nLet's go through the correct steps:\n\n1. **Identify the fractions**: We have \\( \\frac{2}{3} \\) and \\( \\frac{3}{8} \\).\n\n2. **Division of fractions**: To divide \\( \\frac{2}{3} \\) by \\( \\frac{3}{8} \\), you multiply \\( \\frac{2}{3} \\) by the reciprocal of \\( \\frac{3}{8} \\). The reciprocal of \\( \\frac{3}{8} \\) is \\( \\frac{8}{3} \\).\n\n3. **Perform the multiplication**:\n   \\[\n   \\frac{2}{3} \\times \\frac{8}{3} = \\frac{2 \\times 8}{3 \\times 3} = \\frac{16}{9}\n   \\]\n\nTherefore, the correct answer is \\( \\frac{16}{9} \\), not \\( \\frac{9}{16} \\). The mistake in the original incorrect answer was inverting the wrong fraction and incorrectly multiplying.",
+    "has_images": false
+  },
+  {
+    "topic": "Number Operations",
+    "question": "2/5\u00f71/3=?",
+    "incorrect_answer": "2/5\u00f71/3=5/2*1/3=5/6",
+    "actual_misconception": "when students incorrectly invert the dividend instead of the divisor when dividing fractions, misunderstanding the 'invert and multiply' rule.",
+    "predicted_misconception": "The incorrect answer arises from a misunderstanding of how to divide fractions. The correct method for dividing fractions is to multiply by the reciprocal of the divisor.\n\nLet's go through the correct steps:\n\n1. Start with the original problem: \\(\\frac{2}{5} \\div \\frac{1}{3}\\).\n\n2. To divide by a fraction, multiply by its reciprocal. The reciprocal of \\(\\frac{1}{3}\\) is \\(\\frac{3}{1}\\).\n\n3. So, \\(\\frac{2}{5} \\div \\frac{1}{3}\\) becomes \\(\\frac{2}{5} \\times \\frac{3}{1}\\).\n\n4. Multiply the numerators: \\(2 \\times 3 = 6\\).\n\n5. Multiply the denominators: \\(5 \\times 1 = 5\\).\n\n6. Therefore, \\(\\frac{2}{5} \\div \\frac{1}{3} = \\frac{6}{5}\\).\n\nThe correct answer is \\(\\frac{6}{5}\\), not \\(\\frac{5}{6}\\). The error in the incorrect answer was due to incorrectly flipping the first fraction instead of the second one (the divisor).",
+    "has_images": false
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "prediction": "Failure to understand fraction operations and applying whole number operations to fractions.",
+    "actual": "when students wrongly divide fractions by splitting numerators and denominators into separate divisions, ignoring remainders",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "Misunderstanding the order of coordinates (x, y) on the Cartesian plane.",
+    "actual": "when students struggle with plotting points, reversing the x- and y-coordinates",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Algebraic representations"
+  },
+  {
+    "prediction": "Lack of understanding of common factors and prime factorization to simplify fractions.",
+    "actual": "Students misunderstand proportional relationships, not realizing parts must be equal in size.",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "Misunderstanding the meaning of operations and their relationship to the problem context.",
+    "actual": "when students make reversal order errors, swapping variables in equations, such as writing 2X=Y instead of X=2Y",
+    "training_topic": "Number sense",
+    "test_topic": "Equations and inequalities"
+  },
+  {
+    "prediction": "Incorrect order of operations",
+    "actual": "when students wrongly divide fractions by splitting numerators and denominators into separate divisions, ignoring remainders",
+    "training_topic": "Algebraic representations",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "Misunderstanding the meaning of variables and substitution in algebraic expressions.",
+    "actual": "when students get confusion over operation symbols and their meanings in algebra",
+    "training_topic": "Number Operations",
+    "test_topic": "Equations and inequalities"
+  },
+  {
+    "prediction": "Improper use of numerator and denominator when representing fractions.",
+    "actual": "when students don't understand how to represent proportional relationships.",
+    "training_topic": "Number Operations",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "The misconception demonstrated is a lack of understanding of the multiplicative reasoning required to solve proportional situations.",
+    "actual": "when students struggle to grasp the concept of independent and dependent variables",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Algebraic representations"
+  },
+  {
+    "prediction": "The misconception demonstrated is related to understanding and applying integer operations, specifically subtraction with negative numbers.",
+    "actual": "when students confuse signs of operations and signs of numbers, inappropriately applying the rule \"two negatives make a positive\".",
+    "training_topic": "Equations and inequalities",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is repeated addition instead of multiplication. The student is adding 5 cents repeatedly for each can, instead of multiplying the number of cans by 5 cents to find the total refund amount.",
+    "actual": "when students struggle to grasp the concept of independent and dependent variables",
+    "training_topic": "Properties of number and operations",
+    "test_topic": "Algebraic representations"
+  },
+  {
+    "prediction": "Misconception about the meaning and rules for operating with negative exponents.",
+    "actual": "when students misunderstand numerical exponent patterns, resorting to computation instead of recognizing generalizable patterns.",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "Misunderstanding of fractions and representing parts of a whole.",
+    "actual": "when students don't understand how to represent proportional relationships.",
+    "training_topic": "Number Operations",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "The test example does not demonstrate a clear mathematical misconception. The incorrect answer shows the student attempting to calculate the cost of purchasing the individual commercials and the cost of the 10-minute block separately, and then subtracting to find the savings. This is a reasonable approach, although there appears to be a calculation error. The misconception from the training example about misunderstanding the equal sign is not evident here.",
+    "actual": "when students fail to regroup in subtraction, mistakenly subtracting the larger number from the smaller",
+    "training_topic": "Equations and inequalities",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "Order of operations misconception",
+    "actual": "when students are unsure of the correct sign when adding positive and negative numbers",
+    "training_topic": "Algebraic representations",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "Proportional reasoning misconception - failing to set up and solve the proportion correctly to find the unknown value.",
+    "actual": "when students struggle to understand that ratios can compare same or different units",
+    "training_topic": "Number Operations",
+    "test_topic": "Ratios and proportional reasoning"
+  },
+  {
+    "prediction": "Partitioning or fractional understanding misconception.\n\nThe student seems to have difficulty understanding how to partition a whole into equal parts and identify the correct fractional representation.",
+    "actual": "Students misunderstand proportional relationships, not realizing parts must be equal in size.",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "The misconception demonstrated is treating fractions as separate, unrelated numbers instead of operating with them as values representing part-whole relationships.",
+    "actual": "when students find common denominators but wrongly keep the original numerators unchanged",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is a failure to recognize and represent proportional relationships correctly. The student did not account for the different initial heights when comparing the growth amounts, treating them as absolute values instead of relative to the original heights.",
+    "actual": "when students confuse fixed scaling (absolute) with ratio comparisons (relative) in proportional relationships.",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Ratios and proportional reasoning"
+  },
+  {
+    "prediction": "The misconception demonstrated is an inability to correctly evaluate and graph quadratic functions. The student appears to have made errors in substituting values into the given quadratic function and plotting the corresponding points, resulting in an incorrect table of values and a missing graph.",
+    "actual": "when students struggle to connect different representations of the same function (graph, equation, table).",
+    "training_topic": "Number Operations",
+    "test_topic": "Patterns, relationships, and functions"
+  },
+  {
+    "prediction": "Overgeneralization or oversimplification of a rule or concept.",
+    "actual": "when students mistakenly perceive variables as labels or units, or associate their value with their alphabetical position",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Variables, expressions, and operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is the failure to properly convert and operate with mixed numbers and fractions.",
+    "actual": "when students subtract mixed numbers incorrectly, avoiding regrouping and just subtracting the smaller from the larger number",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is a misunderstanding of the operation required to solve the problem. The incorrect answer treats the given information as if the cost at ARCO is the base price, and subtracts the difference to find the cost at Chevron. However, the correct approach is to add the difference to the cost at ARCO to find the cost at Chevron. This reflects a misunderstanding of how to translate the problem statement into the appropriate mathematical operations.",
+    "actual": "when students confuse fixed scaling (absolute) with ratio comparisons (relative) in proportional relationships.",
+    "training_topic": "Number sense",
+    "test_topic": "Ratios and proportional reasoning"
+  },
+  {
+    "prediction": "The misconception demonstrated is confusing steepness of a curve with the absolute value of the function, rather than interpreting steepness as the rate of change or slope.",
+    "actual": "when students struggle to grasp the concept that a linear function represents a consistent rate of change",
+    "training_topic": "Number Operations",
+    "test_topic": "Patterns, relationships, and functions"
+  },
+  {
+    "prediction": "The misconception demonstrated is incorrectly interpreting the algebraic equation or misunderstanding the meaning of variables and algebraic operations.",
+    "actual": "when students get confusion over operation symbols and their meanings in algebra",
+    "training_topic": "Number Operations",
+    "test_topic": "Equations and inequalities"
+  },
+  {
+    "prediction": "The misconception demonstrated is a lack of understanding of decimal place value and operations with decimals.",
+    "actual": "when students incorrectly drop extra decimal digits directly into their answer when subtracting uneven decimals",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is a lack of understanding of functional relationships and the inability to represent a pattern algebraically.",
+    "actual": "when students struggle with forming and understanding algebraic expressions and equations.",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Equations and inequalities"
+  },
+  {
+    "prediction": "The misconception demonstrated is a failure to understand the relationships between different units of measurement.",
+    "actual": "when students lack unitization skills, unable to treat ratios as composite units to solve problems systematically.",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Ratios and proportional reasoning"
+  },
+  {
+    "prediction": "The misconception demonstrated is a misunderstanding of proportional reasoning and the application of multiplicative thinking. The student is adding the individual refund amounts instead of recognizing the proportional relationship between the number of cans and the total refund amount, which should be calculated by multiplication.",
+    "actual": "when students struggle to grasp the concept of independent and dependent variables",
+    "training_topic": "Number sense",
+    "test_topic": "Algebraic representations"
+  },
+  {
+    "prediction": "The misconception demonstrated is the incorrect application of proportional reasoning to a linear (non-proportional) situation.",
+    "actual": "when students struggle to grasp the concept that a linear function represents a consistent rate of change",
+    "training_topic": "Number Operations",
+    "test_topic": "Patterns, relationships, and functions"
+  },
+  {
+    "prediction": "Cross-multiplying incorrectly when solving a proportion.",
+    "actual": "when students struggle to apply correct operations on ratios expressed as fractions",
+    "training_topic": "Number Operations",
+    "test_topic": "Ratios and proportional reasoning"
+  },
+  {
+    "prediction": "The misconception demonstrated is a units error or failure to properly convert units. The student calculated the number of cups but did not convert to the requested unit of quarts.",
+    "actual": "when students lack unitization skills, unable to treat ratios as composite units to solve problems systematically.",
+    "training_topic": "Variables, expressions, and operations",
+    "test_topic": "Ratios and proportional reasoning"
+  },
+  {
+    "prediction": "Incorrect operation applied to fractions.",
+    "actual": "when students wrongly divide fractions by splitting numerators and denominators into separate divisions, ignoring remainders",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is the Whole Number Bias - the student is only considering whole number solutions and ignoring fractional or decimal solutions.",
+    "actual": "when students incorrectly assume the commutative and associative properties apply to subtraction and division, akin to the \"Switch-Around Rule.\"",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Properties of number and operations"
+  },
+  {
+    "prediction": "Order of operations misconception",
+    "actual": "when students misunderstand numerical exponent patterns, resorting to computation instead of recognizing generalizable patterns.",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "Concatenating variables instead of performing operations.",
+    "actual": "when students mistakenly perceive variables as labels or units, or associate their value with their alphabetical position",
+    "training_topic": "Number Operations",
+    "test_topic": "Variables, expressions, and operations"
+  },
+  {
+    "prediction": "Misunderstanding of fractional parts and partitioning of wholes.",
+    "actual": "Students misunderstand proportional relationships, not realizing parts must be equal in size.",
+    "training_topic": "Number Operations",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "Incorrect operation on fractions.",
+    "actual": "when students wrongly divide fractions by splitting numerators and denominators into separate divisions, ignoring remainders",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "Misunderstanding of negative exponents and their relationship to fractional powers.",
+    "actual": "when students misunderstand numerical exponent patterns, resorting to computation instead of recognizing generalizable patterns.",
+    "training_topic": "Equations and inequalities",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "The misconception demonstrated is incorrectly applying the procedure for adding fractions with the same denominator to fractions with different denominators.",
+    "actual": "when students incorrectly add or subtract fractions by summing both numerators and denominators separately",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is the failure to recognize exponential growth patterns. The student incorrectly identified the situation as linear, despite the presence of variables raised to powers, which indicates an exponential relationship.",
+    "actual": "when students confuse linear and exponential functions' properties and representations.",
+    "training_topic": "Number Operations",
+    "test_topic": "Patterns, relationships, and functions"
+  },
+  {
+    "prediction": "The misconception demonstrated is the assumption of proportional reasoning or linear relationship without justification.\n\nThe student assumed that the shipping cost per kilogram would be constant or follow a simple proportional relationship, and calculated an average cost per kilogram from the given examples. However, the correct approach recognizes that the shipping cost likely follows a linear function with a fixed cost plus a variable cost per kilogram, which cannot be determined by simply averaging the costs per kilogram from the given examples.",
+    "actual": "when students confuse linear relationships with direct proportions, believing that because a linear function increases or decreases at a constant rate, it must be a direct proportion.",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Patterns, relationships, and functions"
+  },
+  {
+    "prediction": "The misconception demonstrated is confusing the order of coordinates when plotting points on the coordinate plane.",
+    "actual": "when students struggle with plotting points, reversing the x- and y-coordinates",
+    "training_topic": "Properties of number and operations",
+    "test_topic": "Algebraic representations"
+  },
+  {
+    "prediction": "The misconception demonstrated is using meaningless symbols or letters instead of meaningful variable names when representing a real-world situation mathematically.",
+    "actual": "when students find it challenging to comprehend the various meanings and applications of variables",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Equations and inequalities"
+  },
+  {
+    "prediction": "The misconception demonstrated is the lack of understanding of integer operations, specifically the inability to correctly perform addition with negative numbers.",
+    "actual": "when students are unsure of the correct sign when adding positive and negative numbers",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is difficulty with plotting points and understanding geometric shapes and their properties.",
+    "actual": "when students struggle to interpret graph scales accurately",
+    "training_topic": "Equations and inequalities",
+    "test_topic": "Patterns, relationships, and functions"
+  },
+  {
+    "prediction": "The misconception demonstrated is failing to set up proportions correctly and understand the multiplicative relationship between the ratios.",
+    "actual": "when students struggle to apply correct operations on ratios expressed as fractions",
+    "training_topic": "Equations and inequalities",
+    "test_topic": "Ratios and proportional reasoning"
+  },
+  {
+    "prediction": "Proportional reasoning misconception - the student failed to set up and solve the proportional relationship correctly between the number of cakes and the required number of eggs.",
+    "actual": "when students lack unitization skills, unable to treat ratios as composite units to solve problems systematically.",
+    "training_topic": "Number Operations",
+    "test_topic": "Ratios and proportional reasoning"
+  },
+  {
+    "prediction": "The misconception demonstrated is a misunderstanding of the components and representations of functions. The student has identified the slope and intercepts correctly, but failed to recognize that graphing the function requires plotting points and drawing the line, not just stating the components.",
+    "actual": "when students struggle to connect different representations of the same function (graph, equation, table).",
+    "training_topic": "Number sense",
+    "test_topic": "Patterns, relationships, and functions"
+  },
+  {
+    "prediction": "The misconception demonstrated is incorrectly applying the commutative property to subtraction.",
+    "actual": "when students subtract mixed numbers incorrectly, avoiding regrouping and just subtracting the smaller from the larger number",
+    "training_topic": "Properties of number and operations",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is procedural errors in algebraic manipulation and solving equations.",
+    "actual": "when students interchange minuend and subtrahend, reversing subtraction order, causing calculation errors, especially in equations or expressions",
+    "training_topic": "Equations and inequalities",
+    "test_topic": "Properties of number and operations"
+  },
+  {
+    "prediction": "Misunderstanding the meaning and rules for operating with negative exponents.",
+    "actual": "when students misunderstand numerical exponent patterns, resorting to computation instead of recognizing generalizable patterns.",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "Misconception with place value and comparing decimal values.",
+    "actual": "when Students think longer numerals mean larger numbers, misunderstanding place value",
+    "training_topic": "Variables, expressions, and operations",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "Proportional reasoning error",
+    "actual": "when students lack unitization skills, unable to treat ratios as composite units to solve problems systematically.",
+    "training_topic": "Variables, expressions, and operations",
+    "test_topic": "Ratios and proportional reasoning"
+  },
+  {
+    "prediction": "Misunderstanding the meaning of algebraic symbols and operations.",
+    "actual": "when students misinterpret slope signs in equations versus their upward or downward trends in graphs.",
+    "training_topic": "Number Operations",
+    "test_topic": "Patterns, relationships, and functions"
+  },
+  {
+    "prediction": "Misunderstanding of fraction representations and part-whole relationships.",
+    "actual": "when students don't understand how to represent proportional relationships.",
+    "training_topic": "Variables, expressions, and operations",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "Order of operations misconception.",
+    "actual": "when students incorrectly perform operations from left to right, neglecting the proper order of operations",
+    "training_topic": "Variables, expressions, and operations",
+    "test_topic": "Properties of number and operations"
+  },
+  {
+    "prediction": "Misconception about the range of values a variable can take.",
+    "actual": "when students find it challenging to comprehend the various meanings and applications of variables",
+    "training_topic": "Number Operations",
+    "test_topic": "Equations and inequalities"
+  },
+  {
+    "prediction": "The misconception demonstrated is the inability to properly perform operations with decimal numbers.",
+    "actual": "when students incorrectly drop extra decimal digits directly into their answer when subtracting uneven decimals",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is misunderstanding the equal sign as indicating an operation to perform rather than representing an equivalence relationship between quantities.",
+    "actual": "when students struggle to grasp that variables can represent changing or varying quantities",
+    "training_topic": "Equations and inequalities",
+    "test_topic": "Variables, expressions, and operations"
+  },
+  {
+    "prediction": "Reversal error or order of operations error.",
+    "actual": "when students mistakenly switch variables when transposing expressions involving subtraction",
+    "training_topic": "Number Operations",
+    "test_topic": "Variables, expressions, and operations"
+  },
+  {
+    "prediction": "Misunderstanding the meaning of mathematical symbols and notation.",
+    "actual": "when students misunderstand the equal sign as indicating \"the answer is\" rather than representing a relationship between quantities",
+    "training_topic": "Number Operations",
+    "test_topic": "Equations and inequalities"
+  },
+  {
+    "prediction": "Misconception with place value and comparing decimal values.",
+    "actual": "when Students think longer numerals mean larger numbers, misunderstanding place value",
+    "training_topic": "Number Operations",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "Misinterpreting graphical representations. The student failed to correctly interpret the steepness of the lines on the graph, which represents the rate of growth, and instead focused on irrelevant factors like weight and height to make an incorrect conclusion.",
+    "actual": "when students struggle to grasp the concept that a linear function represents a consistent rate of change",
+    "training_topic": "Number Operations",
+    "test_topic": "Patterns, relationships, and functions"
+  },
+  {
+    "prediction": "The misconception demonstrated is a lack of understanding of the order of operations and interpreting mathematical phrases correctly. The student incorrectly multiplied 2n by 3 instead of adding 3 to 2n, failing to translate the phrase \"three more than twice n\" accurately into a mathematical expression.",
+    "actual": "when students incorrectly perform operations from left to right, neglecting the proper order of operations",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Properties of number and operations"
+  },
+  {
+    "prediction": "Misconception with operations involving negative numbers.",
+    "actual": "when students are unsure of the correct sign when adding positive and negative numbers",
+    "training_topic": "Equations and inequalities",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "Misconception in operating with mixed numbers and fractions.",
+    "actual": "when students wrongly subtract mixed numbers by separately subtracting wholes, numerators, and denominators to form a new fraction",
+    "training_topic": "Number sense",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is the incorrect interpretation of verbal statements involving operations with variables or algebraic expressions.",
+    "actual": "when students mistakenly switch variables when transposing expressions involving subtraction",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Variables, expressions, and operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is failing to represent or integrate all the given information to solve the problem correctly.",
+    "actual": "when students struggle to represent key aspects and relationships in patterns, as seen in attempts like graphical representations missing key components",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Patterns, relationships, and functions"
+  },
+  {
+    "prediction": "Misconception with comparing decimal values.",
+    "actual": "when Students think longer numerals mean larger numbers, misunderstanding place value",
+    "training_topic": "Number Operations",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "Misconception in lining up the decimal places when multiplying decimals.",
+    "actual": "when students wrongly position the decimal in multiplication by counting from the left, not the right",
+    "training_topic": "Properties of number and operations",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is treating the variable as an object rather than as a representation of an unknown quantity.",
+    "actual": "when students struggle with forming and understanding algebraic expressions and equations.",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Equations and inequalities"
+  },
+  {
+    "prediction": "Misconception with fraction equivalence and simplification.",
+    "actual": "when students simplify just one of the terms in a fraction, either the numerator or the denominator",
+    "training_topic": "Properties of number and operations",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "Inappropriate application of the \"switch-around rule\" or commutative property of addition.",
+    "actual": "when students incorrectly assume the commutative and associative properties apply to subtraction and division, akin to the \"Switch-Around Rule.\"",
+    "training_topic": "Number Operations",
+    "test_topic": "Properties of number and operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is a failure to recognize the need for an algebraic representation or equation to model the given situation.",
+    "actual": "when students get confusion over operation symbols and their meanings in algebra",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Equations and inequalities"
+  },
+  {
+    "prediction": "Misunderstanding the order of operations and meaning of mathematical phrases.",
+    "actual": "when students incorrectly perform operations from left to right, neglecting the proper order of operations",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Properties of number and operations"
+  },
+  {
+    "prediction": "Misunderstanding of exponential growth.",
+    "actual": "when students confuse linear and exponential functions' properties and representations.",
+    "training_topic": "Number Operations",
+    "test_topic": "Patterns, relationships, and functions"
+  },
+  {
+    "prediction": "The misconception demonstrated is confusing the part with the whole when working with percentages. The student calculated 14% of 70 instead of finding the whole amount of which 70 is 14%.",
+    "actual": "when students struggle to discern the three types of percent problems, relying solely on \"percent times a number equals percentage\" rule",
+    "training_topic": "Algebraic representations",
+    "test_topic": "Ratios and proportional reasoning"
+  },
+  {
+    "prediction": "The misconception demonstrated is a lack of understanding of equivalent fractions and the meaning of the equal sign. The student seems to interpret the equal sign as a signal to perform an operation rather than indicating equivalence between the expressions on either side.",
+    "actual": "when students misunderstand the equal sign as indicating \"the answer is\" rather than representing a relationship between quantities",
+    "training_topic": "Number Operations",
+    "test_topic": "Equations and inequalities"
+  },
+  {
+    "prediction": "Misunderstanding of fraction division",
+    "actual": "when students confuse fixed scaling (absolute) with ratio comparisons (relative) in proportional relationships.",
+    "training_topic": "Number Operations",
+    "test_topic": "Ratios and proportional reasoning"
+  },
+  {
+    "prediction": "The misconception demonstrated is the misunderstanding of the role and meaning of variables in algebraic equations. The student seems to think that if the conditions of the problem change, the variable representing the unknown quantity (in this case, the selling price) must also change, rather than understanding that the variable itself remains the same while the equation or expression involving it changes to reflect the new conditions.",
+    "actual": "when students struggle to grasp that variables can represent changing or varying quantities",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Variables, expressions, and operations"
+  }
+]
