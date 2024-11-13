@@ -1,0 +1,62 @@
+[
+  {
+    "prediction": "Failure to understand fraction operations and applying whole number operations to fractions.",
+    "actual": "when students wrongly divide fractions by splitting numerators and denominators into separate divisions, ignoring remainders",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "Misunderstanding the order of coordinates (x, y) on the Cartesian plane.",
+    "actual": "when students struggle with plotting points, reversing the x- and y-coordinates",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Algebraic representations"
+  },
+  {
+    "prediction": "Lack of understanding of common factors and prime factorization to simplify fractions.",
+    "actual": "Students misunderstand proportional relationships, not realizing parts must be equal in size.",
+    "training_topic": "Ratios and proportional reasoning",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "Misunderstanding the meaning of operations and their relationship to the problem context.",
+    "actual": "when students make reversal order errors, swapping variables in equations, such as writing 2X=Y instead of X=2Y",
+    "training_topic": "Number sense",
+    "test_topic": "Equations and inequalities"
+  },
+  {
+    "prediction": "Incorrect order of operations",
+    "actual": "when students wrongly divide fractions by splitting numerators and denominators into separate divisions, ignoring remainders",
+    "training_topic": "Algebraic representations",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "Misunderstanding the meaning of variables and substitution in algebraic expressions.",
+    "actual": "when students get confusion over operation symbols and their meanings in algebra",
+    "training_topic": "Number Operations",
+    "test_topic": "Equations and inequalities"
+  },
+  {
+    "prediction": "Improper use of numerator and denominator when representing fractions.",
+    "actual": "when students don't understand how to represent proportional relationships.",
+    "training_topic": "Number Operations",
+    "test_topic": "Number sense"
+  },
+  {
+    "prediction": "The misconception demonstrated is a lack of understanding of the multiplicative reasoning required to solve proportional situations.",
+    "actual": "when students struggle to grasp the concept of independent and dependent variables",
+    "training_topic": "Patterns, relationships, and functions",
+    "test_topic": "Algebraic representations"
+  },
+  {
+    "prediction": "The misconception demonstrated is related to understanding and applying integer operations, specifically subtraction with negative numbers.",
+    "actual": "when students confuse signs of operations and signs of numbers, inappropriately applying the rule \"two negatives make a positive\".",
+    "training_topic": "Equations and inequalities",
+    "test_topic": "Number Operations"
+  },
+  {
+    "prediction": "The misconception demonstrated is repeated addition instead of multiplication. The student is adding 5 cents repeatedly for each can, instead of multiplying the number of cans by 5 cents to find the total refund amount.",
+    "actual": "when students struggle to grasp the concept of independent and dependent variables",
+    "training_topic": "Properties of number and operations",
+    "test_topic": "Algebraic representations"
+  }
+]
