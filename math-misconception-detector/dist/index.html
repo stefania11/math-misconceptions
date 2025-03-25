@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Misconception Detector</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #1f2937;
+        }
+        header {
+            background-color: #2563eb;
+            color: white;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .camera-view {
+            aspect-ratio: 16/9;
+            background-color: black;
+            border-radius: 0.5rem 0.5rem 0 0;
+            overflow: hidden;
+            position: relative;
+        }
+        .camera-placeholder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .camera-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 0 0 0.5rem 0.5rem;
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+        h2 {
+            font-size: 1.25rem;
+            margin-top: 0;
+            color: #2563eb;
+        }
+        .button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background-color: #2563eb;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            text-decoration: none;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+        }
+        .button.red {
+            background-color: #ef4444;
+        }
+        .button.green {
+            background-color: #10b981;
+        }
+        .button.secondary {
+            background-color: #6b7280;
+        }
+        .button.disabled {
+            background-color: #9ca3af;
+            cursor: not-allowed;
+        }
+        footer {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.875rem;
+        }
+        .feature-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .feature-list li {
+            margin-bottom: 0.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .feature-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #2563eb;
+            font-weight: bold;
+        }
+        .misconception {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .misconception-icon {
+            color: #f59e0b;
+            flex-shrink: 0;
+        }
+        .feedback {
+            background-color: #eff6ff;
+            border: 1px solid #dbeafe;
+            border-radius: 0.375rem;
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+        }
+        .feedback-title {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            color: #1e40af;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        .history-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .history-id {
+            color: #2563eb;
+            font-weight: 500;
+        }
+        .history-time {
+            color: #6b7280;
+            font-size: 0.875rem;
+        }
+        .info {
+            background-color: #f0f9ff;
+            border: 1px solid #e0f2fe;
+            border-radius: 0.375rem;
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            color: #0369a1;
+        }
+        .alert {
+            background-color: #fef2f2;
+            border: 1px solid #fee2e2;
+            border-radius: 0.375rem;
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            color: #b91c1c;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: none;
+        }
+        img.captured-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: none;
+        }
+        canvas {
+            display: none;
+        }
+        .upload-section {
+            text-align: center;
+            padding: 1rem;
+            display: none;
+        }
+        
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border-left-color: #3b82f6;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .processing-indicator {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Math Misconception Detector</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
+    </header>
+    
+    <div class="container">
+        <div class="card">
+            <div class="info">
+                <strong>Interactive Mode:</strong> This application uses your camera to analyze math work and detect misconceptions. Please allow camera access when prompted.
+            </div>
+            
+            <div class="camera-view" id="camera-view">
+                <div class="camera-placeholder" id="camera-placeholder">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path><circle cx="12" cy="13" r="3"></circle></svg>
+                    <p>Starting camera...</p>
+                    <p style="font-size: 0.875rem;">Please allow camera access when prompted</p>
+                </div>
+                <video id="camera-feed" autoplay playsinline></video>
+                <img id="captured-image" class="captured-image" alt="Captured math work" />
+                <canvas id="canvas"></canvas>
+            </div>
+            
+            <div class="camera-controls">
+                <button id="capture-btn" class="button red" style="display: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path><circle cx="12" cy="13" r="3"></circle></svg>
+                    Capture
+                </button>
+                <button id="try-again-btn" class="button secondary" style="display: none;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"></path></svg>
+                    Try Again
+                </button>
+                <div id="processing-status" class="text-sm text-gray-500"></div>
+            </div>
+            
+            <div id="processing-indicator" class="processing-indicator">
+                <div class="spinner"></div>
+                <span>Analyzing math work with Gemini Flash 2.0...</span>
+            </div>
+            
+            <div id="upload-section" class="upload-section">
+                <p>Can't access camera? Upload an image of math work instead:</p>
+                <button id="upload-btn" class="button green">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 8l-5-5-5 5M12 3v12"></path></svg>
+                    Upload Image
+                </button>
+                <input type="file" id="file-input" accept="image/*" style="display: none;" />
+            </div>
+        </div>
+
+        <div id="result-section" class="card" style="display: none;">
+            <div class="misconception">
+                <div class="misconception-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                </div>
+                <div>
+                    <h2>Misconception Detected: MaE44</h2>
+                    <p>Struggling with independent/dependent variables</p>
+                </div>
+            </div>
+            
+            <div class="feedback">
+                <div class="feedback-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                    Feedback
+                </div>
+                <p>The dependent variable (output) changes based on the independent variable (input). Think about cause and effect - which variable controls the other?</p>
+            </div>
+            
+            <div>
+                <h3 class="example-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                    Example of this misconception
+                </h3>
+                <p class="example-text">Difficulty identifying which variable depends on the other</p>
+            </div>
+        </div>
+
+        <div id="history-section" class="card" style="display: none;">
+            <h2>Detection History</h2>
+            <div id="history-list" class="history-list">
+                <!-- History items will be added here dynamically -->
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>About This Application</h2>
+            <p>This is an interactive prototype designed to help middle school students learn algebra using multimodal AI.</p>
+            
+            <p>The application uses Gemini Flash 2.0 to analyze student math work and identify common misconceptions in algebra learning.</p>
+            
+            <h3>Key Features:</h3>
+            <ul class="feature-list">
+                <li>Camera capture for math work analysis</li>
+                <li>Image upload capability</li>
+                <li>AI-powered misconception detection</li>
+                <li>Personalized feedback for students</li>
+                <li>History tracking of detected misconceptions</li>
+            </ul>
+            
+            <div class="info">
+                <strong>Technical Details:</strong> This application consists of:
+                <ul>
+                    <li>A FastAPI backend with Gemini Flash 2.0 integration</li>
+                    <li>API endpoints for misconception detection and image analysis</li>
+                    <li>A frontend interface for capturing and uploading images</li>
+                </ul>
+                <p>Backend API: <a href="https://math-misconception-api-ntuiyndx.fly.dev/">https://math-misconception-api-ntuiyndx.fly.dev/</a></p>
+                <p>GitHub Repository: <a href="https://github.com/stefania11/math-misconceptions">https://github.com/stefania11/math-misconceptions</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        Powered by Gemini 2.0 Flash &amp; Research by Nancy Otero, Stefania Druga and Andrew Lan
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

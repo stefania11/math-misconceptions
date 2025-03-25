@@ -163,24 +163,99 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // Process the image (make actual API call to backend)
-  function processImage(imageDataUrl) {
+  async function processImage(imageDataUrl) {
     if (!processingStatus) return;
     
-    // Show processing status
+    // Show processing status and indicator
+    const processingIndicator = document.getElementById('processing-indicator');
+    if (processingIndicator) {
+      processingIndicator.style.display = 'flex';
+    }
     processingStatus.textContent = 'Analyzing math work...';
     
+    // Compress image before sending to API
+    let compressedImage = imageDataUrl;
+    
+    // Function to compress image
+    const compressImagePromise = new Promise((resolve) => {
+      try {
+        const img = new Image();
+        img.onload = function() {
+          const MAX_IMAGE_SIZE = 800; // Maximum dimension in pixels
+          let width = img.width;
+          let height = img.height;
+          
+          // Only compress if image is larger than MAX_IMAGE_SIZE
+          if (width > MAX_IMAGE_SIZE || height > MAX_IMAGE_SIZE) {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Calculate new dimensions while preserving aspect ratio
+            if (width > height) {
+              height = Math.round(height * (MAX_IMAGE_SIZE / width));
+              width = MAX_IMAGE_SIZE;
+            } else {
+              width = Math.round(width * (MAX_IMAGE_SIZE / height));
+              height = MAX_IMAGE_SIZE;
+            }
+            
+            canvas.width = width;
+            canvas.height = height;
+            
+            // Draw resized image to canvas
+            ctx.drawImage(img, 0, 0, width, height);
+            
+            // Get compressed image data URL (0.8 quality)
+            const compressed = canvas.toDataURL('image/jpeg', 0.8);
+            console.log('Image compressed for better performance', {
+              originalSize: imageDataUrl.length,
+              compressedSize: compressed.length,
+              reduction: ((imageDataUrl.length - compressed.length) / imageDataUrl.length * 100).toFixed(2) + '%'
+            });
+            
+            resolve(compressed);
+          } else {
+            // Image is already small enough, no compression needed
+            resolve(imageDataUrl);
+          }
+        };
+        
+        // Handle image loading errors
+        img.onerror = function() {
+          console.warn('Error loading image for compression, using original image');
+          resolve(imageDataUrl);
+        };
+        
+        // Start loading the image
+        img.src = imageDataUrl;
+      } catch (err) {
+        console.warn('Image compression failed, using original image', err);
+        resolve(imageDataUrl);
+      }
+    });
+    
+    // Wait for image compression
+    compressedImage = await compressImagePromise;
+    
     // Prepare the image data for the API
-    const imageData = imageDataUrl.includes('base64,') ? 
-      imageDataUrl.split('base64,')[1] : imageDataUrl;
+    const imageData = compressedImage.includes('base64,') ? 
+      compressedImage.split('base64,')[1] : compressedImage;
     
     // Create form data for the API request
     const formData = new FormData();
     formData.append('image_base64', imageData);
     
-    // Make the actual API request to the backend
+    // Make the actual API request to the backend with timeout handling
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 30000); // 30 second timeout
+    
     fetch('https://math-misconception-api-ntuiyndx.fly.dev/api/analyze', {
       method: 'POST',
-      body: formData
+      body: formData,
+      signal: controller.signal,
+      headers: {
+        'Accept': 'application/json'
+      }
     })
     .then(response => {
       if (!response.ok) {
@@ -189,6 +264,11 @@ document.addEventListener('DOMContentLoaded', function() {
       return response.json();
     })
     .then(result => {
+      // Hide processing indicator
+      if (processingIndicator) {
+        processingIndicator.style.display = 'none';
+      }
+      
       // Show result
       if (resultSection) {
         resultSection.style.display = 'block';
@@ -211,8 +291,45 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     .catch(error => {
       console.error('Error processing image:', error);
-      processingStatus.textContent = 'Error analyzing image';
+      clearTimeout(timeoutId);
+      
+      // Hide processing indicator
+      if (processingIndicator) {
+        processingIndicator.style.display = 'none';
+      }
+      
+      if (error.name === 'AbortError') {
+        processingStatus.textContent = 'Analysis timed out. Please try again with a smaller image.';
+      } else if (error.message && error.message.includes('NetworkError')) {
+        processingStatus.textContent = 'Network error. Please check your connection and try again.';
+      } else {
+        processingStatus.textContent = 'Error analyzing image. Please try again.';
+      }
+      
+      // Show an error message to the user
+      showErrorMessage('There was a problem analyzing your image. Please try again or use a different image.');
     });
+  }
+  
+  // Show an error message to the user
+  function showErrorMessage(message) {
+    const errorElement = document.createElement('div');
+    errorElement.className = 'alert';
+    errorElement.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+      <p>${message}</p>
+    `;
+    
+    // Insert at the top of the camera view or results area
+    const insertPoint = resultSection || cameraView;
+    if (insertPoint && insertPoint.parentNode) {
+      insertPoint.parentNode.insertBefore(errorElement, insertPoint);
+      
+      // Remove after 10 seconds
+      setTimeout(() => {
+        errorElement.remove();
+      }, 10000);
+    }
   }
   
   // Update the misconception display with the detected misconception
